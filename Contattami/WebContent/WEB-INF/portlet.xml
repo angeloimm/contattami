@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app
+	xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   	xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+   version="2.0">
+	<portlet>
+	    <portlet-name>contattami</portlet-name>
+	    <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
+	    <init-param>
+	    	<name>contextConfigLocation</name>
+	    	<value>/WEB-INF/spring/ctxs/contattami-ctx.xml</value>
+	    </init-param>
+	    <supports>
+	        <mime-type>text/html</mime-type>
+	        <portlet-mode>view</portlet-mode>
+	    </supports>
+	    <portlet-info>
+	        <title>Contact us</title>
+	    </portlet-info>
+	    <portlet-preferences>
+	    	<preference>
+	    		<name>mailServerHost</name>
+	    		<value>authsmtp.goinitaly.com</value>
+	    	</preference>
+	    	<preference>
+	    		<name>mailServerPort</name>
+	    		<value>25</value>
+	    	</preference>	
+	    	<preference>
+	    		<name>mailServerUsername</name>
+	    		<value>info@goinitaly.com</value>
+	    	</preference>
+	    	<preference>
+	    		<name>mailServerPassword</name>
+	    		<value>baBa113It!#</value>
+	    	</preference>	
+	    	<preference>
+	    		<name>mailTo</name>
+	    		<value>info@goinitaly.com</value>
+	    	</preference>
+	    	<preference>
+	    		<name>mailSubject</name>
+	    		<value>Information</value>
+	    	</preference>	    		    	    		
+	    </portlet-preferences>
+	</portlet>
+</portlet-app>

@@ -1,0 +1,78 @@
+<html>
+    <body>
+    	<table>
+    		<tr>
+    			<td>
+    				<strong>Contact name and surname</strong>
+    			</td>
+    			<td>
+    				${dto.nameSurname}
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<strong>Contact mail address</strong>
+    			</td>
+    			<td>
+    				${dto.from}
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<strong>Contact birth date</strong>
+    			</td>
+    			<td>
+    				${dto.birthDate}
+    			</td>
+    		</tr> 
+    		<tr>
+    			<td>
+    				<strong>Contact nationality</strong>
+    			</td>
+    			<td>
+    				${dto.nationality}
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<strong>Where did you heard us</strong>
+    			</td>
+    			<td>
+    				${dto.whereHeardUs}
+    			</td>
+    		</tr>  
+    		<tr>
+    			<td>
+    				<strong>Occupation</strong>
+    			</td>
+    			<td>
+    				${dto.occupation}
+    			</td>
+    		</tr>   
+    		<tr>
+    			<td>
+    				<strong>Interested trip</strong>
+    			</td>
+    			<td>
+    				${dto.interestedTrip}
+    			</td>
+    		</tr>
+    		<tr>
+    			<td>
+    				<strong>Indipendent experiences</strong>
+    			</td>
+    			<td>
+    				${dto.indipendentExperiences}
+    			</td>
+    		</tr> 
+    		<tr>
+    			<td>
+    				<strong>Questions</strong>
+    			</td>
+    			<td>
+    				${dto.questions}
+    			</td>
+    		</tr>     		   		    		 		  		    		   		    		
+    	</table>
+    </body>
+</html>
